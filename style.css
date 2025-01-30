@@ -1,0 +1,79 @@
+*{
+    box-sizing:border-box;
+}
+
+html, body{
+    background: black;
+    padding: 0;
+    margin: 0;
+}
+
+.game-container{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+    width: 1232px;
+    height: 680px;
+    margin: 0 auto;
+    outline: 1px solid white;    
+}
+
+.button{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    border: none;
+    cursor: pointer;
+    
+    transition-duration: 0.4s;
+    -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.soundbutton{
+    position: absolute;
+    top: 15%;
+    left: 75%;
+    border: none;
+    cursor: pointer;
+    -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.controls{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    border: none;
+    -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.title{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+    border: none;
+    -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.button:hover {
+    transform: scale(1.1,1.1);
+}
+
+.game-container canvas{
+    image-rendering: pixelated;
+    display: block;
+}
+
